@@ -44,7 +44,8 @@ namespace NUnit.Tests2
             }
             else if (browser == "Chrome")
             {
-                driver = new ChromeDriver(@"C:\SeleniumJ\drivers");
+                driver =
+                    new ChromeDriver(@"C:\SeleniumJ\drivers");
 
             }
             else if (browser == "IE")
@@ -81,7 +82,10 @@ namespace NUnit.Tests2
 
             test.Log(Status.Pass, "Test Passed");
 
+            
             rep.Flush();
+            
+            
 
 
         }

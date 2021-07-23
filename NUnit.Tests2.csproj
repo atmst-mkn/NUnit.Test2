@@ -451,6 +451,8 @@
     <Compile Include="ExtentReportTest.cs" />
     <Compile Include="Registeration.cs" />
     <Compile Include="TestClass.cs" />
+    <Compile Include="TestClass1.cs" />
+    <Compile Include="Lists.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

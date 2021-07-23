@@ -27,7 +27,7 @@ namespace TestFramework
             {
                 string filePath = Path.GetDirectoryName(System.AppDomain.CurrentDomain.BaseDirectory);
                 filePath = Directory.GetParent(Directory.GetParent(filePath).FullName).FullName;
-                string reportPath = @"C:\SeleniumJ\ExtentReports\NUnit_Tests2\Report.html";
+                string reportPath = @"C:\SeleniumJ\ExtentReports\NUnit_Tests2\report.html";
                 //string reportFile = DateTime.Now.ToString().Replace("/", "_").Replace(":", "_").Replace(" ", "_").Replace("-", "_") + ".html";
                 htmlReporter = new ExtentHtmlReporter(reportPath);
                 extent = new ExtentReports();
